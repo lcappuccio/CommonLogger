@@ -6,9 +6,15 @@
 
     <groupId>org.systemexception</groupId>
     <artifactId>logger</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
 
     <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.10</version>
+            <scope>test</scope>
+        </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>
