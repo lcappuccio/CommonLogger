@@ -17,20 +17,25 @@ public class LoggerImplTest {
 	private static final Logger sut = LoggerImpl.getFor(LoggerImplTest.class);
 
 	@Test
-	public void testInfo() throws Exception {
+	public void testInfo() {
 		sut.info("TestInfo");
 		assertTrue(new File("info.log").exists());
 	}
 
 	@Test
-	public void testDebug() throws Exception {
+	public void testDebug() {
 		sut.debug("TestDebug");
 		assertTrue(new File("debug.log").exists());
 	}
 
 	@Test
-	public void testError() throws Exception {
+	public void testError() {
 		sut.error("TestError", new Exception());
 		assertTrue(new File("error.log").exists());
+	}
+
+	@Test
+	public void testCorrectClassIsLogged() {
+		
 	}
 }
