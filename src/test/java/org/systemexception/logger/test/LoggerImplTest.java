@@ -19,19 +19,19 @@ public class LoggerImplTest {
 	@Test
 	public void testInfo() {
 		sut.info("TestInfo");
-		assertTrue(new File("info.log").exists());
+		assertTrue(new File("target/info.log").exists());
 	}
 
 	@Test
 	public void testDebug() {
 		sut.debug("TestDebug");
-		assertTrue(new File("debug.log").exists());
+		assertTrue(new File("target/debug.log").exists());
 	}
 
 	@Test
 	public void testError() {
 		sut.error("TestError", new Exception());
-		assertTrue(new File("error.log").exists());
+		assertTrue(new File("target/error.log").exists());
 	}
 
 	@Test
