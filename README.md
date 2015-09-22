@@ -1,7 +1,13 @@
 # CommonLogger 
 Basic log4j2 wrapper
 
-[![Build Status](https://travis-ci.org/lcappuccio/CommonLogger.svg?branch=master)](https://travis-ci.org/lcappuccio/CommonLogger)
+**Master**
+
+[![Build Status](https://travis-ci.org/lcappuccio/common-logger.svg?branch=master)](https://travis-ci.org/lcappuccio/common-logger)
+
+**Develop**
+
+[![Build Status](https://travis-ci.org/lcappuccio/common-logger.svg?branch=develop)](https://travis-ci.org/lcappuccio/common-logger)
 
 ## Dependency
 Add to you pom.xml the [jitpack](https://jitpack.io) repository and dependency
