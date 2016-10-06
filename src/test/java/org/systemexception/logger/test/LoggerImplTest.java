@@ -33,9 +33,4 @@ public class LoggerImplTest {
 		sut.error("TestError", new Exception());
 		assertTrue(new File("target/error.log").exists());
 	}
-
-	@Test
-	public void testCorrectClassIsLogged() {
-		
-	}
 }
